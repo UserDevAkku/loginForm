@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="stylesheet" href="/css/form.css">
+    <link rel="stylesheet" href="/css/css2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <form id="form" action="/submit" method="post">
+        <div class="title">
+            <div class="login">LOG<i id="logo" class="fa-solid fa-user"></i>IN</i></div>
+        </div>
+
+        <div class="box1" >
+            <input class="userinput un"  id="uf" type="text" placeholder="First Name" name="f">
+            <input class="userinput un"  id="ul" type="text" placeholder="Last name" name="l">
+        </div>
+        <p id="msg2"></p>
+        <div class="box1"><input class="userinput" id="um" type="text" placeholder="Email" name="e"></div>
+        <p class="msg3"></p>
+        <div class="box1"><input class="userinput" id="pd" value="" type="password" placeholder="Password" name="p"></div>
+        <div class="chkbox">
+            <div class="chkbox1">
+                <input type="checkbox" value="fakepwd" id="checkbox">show password
+            </div>
+        </div>
+        <div class="msg-container">
+            <p id="msg"></p>
+        </div>
+        <div class="box1"><input class="userinput" id="cpd" value="" type="password" placeholder="Confirm" name="cp"></div>
+        <p id="msg1"></p>
+        <div class="box1"><input class="userinput" id="db" type="text" placeholder="Date of birth" name="dob"></div>
+        <p id="msg4"></p>
+        <div class="sbt"><input type="submit" class="submit" value="submit"></div>
+        <div class="user-recovery">
+            <a href="">Reset password</a>
+            <a href="">Have account</a>
+        </div>
+    </form>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

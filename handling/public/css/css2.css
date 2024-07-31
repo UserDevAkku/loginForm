@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:monospace ;
+}
+body{
+    height: 100vh;
+   background: white;
+   width: 100%;
+   display: flex;
+   align-items: center;
+  justify-content: center;
+}
+/* @keyframes vibrate {
+  0%{
+    transform: translate(-7px,7px);
+    color: red;
+    border-color: red;
+    border: 3px solid white;
+    transition: all 2ms ease-in-out 2s;
+  }
+  100%{
+    transform: translate(-4px,7px);
+    color: red;
+    border-color: red;
+    border: 3px solid white;
+    transition: all 2ms ease-in-out 2s;
+  }
+} */
+@keyframes flicker {
+  10% {
+      color: red;
+      opacity: 0.30;
+
+  }
+
+  50% {
+      color: greenyellow;
+      opacity: 0.70;
+  }
+
+  100% {
+      opacity: 100;
+      color: #0ef;
+  }
+}
