@@ -1,0 +1,16 @@
+@keyframes flicker {
+    10%
+    {
+       color:green;
+
+    }
+    100%{
+        opacity: 100;
+        color: #32cd32;
+    }
+}
+ .msg1{
+    
+    color:greenyellow;
+    text-align: center;
+ }

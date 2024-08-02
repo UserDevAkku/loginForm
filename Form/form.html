@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="css2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>  
+    <div class="form-container">
+        <form>
+            <div class="title">
+                <div class="login">LOGIN 
+                    <span><i class="fa-regular fa-user" style="color: #010409;"></i>
+                    </span>
+                </div></div>
+            <dfn class="hint" >Required</dfn>
+            <div class="box1"><input class="userinput" id="um"  type="text" placeholder=" Username"></div>
+            <dfn class="hint" >Required</dfn>
+            <div class="box1"><input class="userinput"  id="pd" value="" type="password" placeholder="Password"></div>
+            <p id="msg" ></p>
+            <dfn class="hint" >Required</dfn>
+            <div class="box1"><input class="userinput" id="cpd" value="" type="password" placeholder="Confirm Password" ></div>
+            <p id="msg" class="msg1"></p>
+            <dfn class="hint" >Required</dfn>
+            <div class="box1"><input class="userinput" id="db" type="text" placeholder="Date of birth"></div>
+            <input type="submit" class="submit" value="SUBMIT">
+            <div class="user-recovery">
+                <a href="">Reset password</a>
+                <a href="">Have account</a>
+            </div>
+        </form>
+    </div>
+    <script src="form.js"></script>
+</body>
+
+</html>
