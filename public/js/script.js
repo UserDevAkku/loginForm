@@ -67,6 +67,9 @@ let passwordmatching=()=>{
       msg.innerHTML="wrong password"
       msg.style.animation="paused"
     }
+    else if (cpd.value===""){
+      msg.innerHTML=""
+    }
     else {
 msg.innerHTML=""
     }
