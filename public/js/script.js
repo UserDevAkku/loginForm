@@ -62,13 +62,10 @@ let passwordmatching=()=>{
       msg.style.color="blue";
       msg.style.animation="flicker 1s ease-in infinite"
     }
-    else if(cpd.value!==pd.value )
+    else if( cpd.value!=="" && cpd.value!==pd.value )
        {
       msg.innerHTML="wrong password"
       msg.style.animation="paused"
-    }
-    else if (cpd.value===""){
-      msg.innerHTML=""
     }
     else {
 msg.innerHTML=""
