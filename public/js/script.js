@@ -360,27 +360,3 @@ let showpsw=()=>{
 showpwd.addEventListener("click",()=>{
   showpsw();
 })
-
-
- //open form
-// open.addEventListener("click",()=>{
-//  show();
-// })
-// let show=()=>{
-// open.style.display="none"
-// form.style.display="block"
-// close.style.display="block"
-// }
-// //close form
-// close.addEventListener("click",()=>{
-//   hide();
- 
- 
-//  })
-// let hide=()=>{
-// form.style.display="none"
-// close.style.display="none"
-// open.style.display="block"
-// }
-
-
